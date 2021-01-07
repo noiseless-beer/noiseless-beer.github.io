@@ -1,364 +1,164 @@
-<!DOCTYPE html>
-<html class="cspio">
-<head>
-	<!---
-	Welcome to our free coming soon page template by http://comingsoonpage.com Get your free download at https://www.seedprod.com/free-coming-soon-page/
-	This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
-	http://creativecommons.org/licenses/by-nc-nd/4.0/
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Luc Viguie">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Noiseless - Hand Crafted Beer</title>
 
-	To get started follow this checklist.
+    <link rel="canonical" href="https://noiseless.beer/">
 
-	1. Replace the *Page Title* on lines 23, 31 & 296
-	2. Set the *Page Description* on lines 26, 32 & 298
-	3. Set an optional *Logo* on lines 294 using the src attribute.
-	4. Set your *Facebook Profile* URL on line 312 using the href attribute.
-	5. Set your *Twitter Profile* URL on line 313 using the href attribute.
-	6. Set your *Email* on line 314 using the href attribute.
-	7. Set your background image on line 63, see file README.mb for additional background images.
-	8. Set your MailChimp email post URL on line 300 See video: https://youtu.be/YUdP1qfMot8
-	9. FTP to your Website.
-	-->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Noiseless - Coming as soon as we Can!</title>
-
-	<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico">
-	<meta property="og:url" content="" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Noiseless - Coming as soon as we Can!" />
-	<meta property="og:description" content="" />
-
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Less CSS -->
-	<link rel="stylesheet/less" type="text/css" href="styles.less" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js" ></script>
-
-	<!-- Bootstrap and default Style -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
-
-	<!-- Google Fonts -->
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
-	<link class="gf-headline" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-
-	<!-- Calculated Styles -->
-	<style type="text/css">
-
-	html {
-		height: 100%;
-		overflow: hidden;
-	}
-
-	body {
-		height:100%;
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-
-	html{
-		height:100%;
-		background: #ffffff url(https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=max&w=1080&q=80); no-repeat center bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	#cspio-page{
-		background-color: rgba(0,0,0,0);
-	}
-
-	.flexbox #cspio-page{
-		align-items: center;
-		justify-content: center;
-	}
-
-	.cspio body{
-		background: transparent;
-	}
-
-	.cspio body, .cspio body p{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-        font-size: 20px;
-        line-height: 1.50em;
-        color:#ffffff;
-    }
-
-	::-webkit-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-	::-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-	:-ms-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-	:-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-    /*.cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-        font-family: 'Pacifico';
-        color:#ffffff;
-    }*/
-
-	#cspio-headline{
-		//font-family: 'Varela Round';
-		font-weight: 400;
-		font-style: ;
-				font-size: 62px;
-		color:#ffffff;
-		line-height: 1.00em;
-	}
-
-	.cspio button{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-    }
-
-    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-		color: #ffffff;
-	}
-
-	#cspio-socialprofiles a {
-	  color: #ffffff;
-	}
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary.disabled,
-	.cspio .btn-primary[disabled],
-	.cspio .btn-primary:focus:hover,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.cspio .btn-primary:focus.disabled,
-	.cspio .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
-
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
-	}
-
-	.form-control,
-	.progress {
-		background-color: rgba(255, 255, 255, 0.85);
-	}
-
-	#cspio-progressbar span,
-	.countdown_section {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		border-color: #e6e6e6;
-	}
-
-	.cspio input[type='text']:focus {
-		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-	}
-
-    #cspio-content {
-		display: none;
-		max-width: 600px;
-		background-color: #000000;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		-moz-background-clip: padding;
-		-webkit-background-clip: padding-box;
-		background-clip: padding-box;
-		background-color:transparent;
-	}
-
-	.cspio .progress-bar,
-	.countdown_section,
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button {
-		background-image: none;
-		text-shadow: none;
-	}
-
-	.cspio input,
-	.cspio input:focus {
-		-webkit-box-shadow: none !important;
-		box-shadow: none !important;
-	}
-
-	#cspio-page{
-	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	}
-
-	.cspio body{
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%);
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%);
-		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 );
-	}
-
-	#cspio-subscribe-btn{
-	    background:transparent;
-	    border: 1px solid #fff !important;
-	    color: #fff;
-	}
-
-	#cspio-subscribe-btn:hover{
-	    background: rgba(255,255,255,0.2);
-	    color: #fff;
-	}
-
-	#cspio-credit img{
-		margin-left:auto;
-		margin-right:auto;
-		width:125px;
-		    margin-top: -4px;
-	}
-
-	#cspio-credit {
-		font-size:11px;
-	}
-
-	</style>
-
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5MMT2VB');</script>
-	<!-- End Google Tag Manager -->
-</head>
-<body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MMT2VB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-	<div id="cspio-page">
-		<div id="cspio-content">
-
-			<!--<img id="cspio-logo" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/seedprod-logo-white.png">-->
-
-			<!--<h1 id="cspio-headline">NOISELESS</h1>-->
-
-			<div class="glitch-wrapper">
-				<h1 id="cspio-headline" class="glitch" data-text="NOISELESS">NOISELESS</h1>
-			</div>
-			<div id="cspio-description">Coming as soon as we Can!</div>
-
-			<form id="cspio-form" action="" method="post">
-				<div id="cspio-field-wrapper">
-					<div class="row">
-						<div class="col-md-12 seperate"><div class="input-group"><input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
-					<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button></span></div></div>
-					</div>
-				</div>
-			</form>
-
-			<span id="cspio-privacy-policy-txt">We promise to never spam you.</span>
-
-			<div id="cspio-socialprofiles">
-				<a href="https://www.facebook.com/noiseless.beer" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
-				<a href="https://twitter.com/noiselessbeer" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-				<a href="https://www.instagram.com/noiseless.beer" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-			</div>
-
-			<div id="cspio-credit">
-					<span>Created with <a target="_blank" href="https://www.comingsoonpage.com"><img id="aff" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/comingsoonpage.com-logo.png" alt="Created by ComingSoonPage.com"></a> Free download <a target="_blank" href="http://www.seedprod.com/free-coming-soon-page/" style="text-decoration:underline" alt="Get your free coming soon page.">here.</a>
-				</span></div>
-
-		</div><!-- end of #cspio-content -->
-	</div>
+    <!-- Favicons and App Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#858585">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Noiseless">
+    <meta name="application-name" content="Noiseless">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
 
-	<script>
-		// Animate Delay
-		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-		// Reseize
-		function resize(){
-				$('head').append("<style id='form-style' type='text/css'></style>");
-				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-		}
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
-			function(){
-				var width = $('#cspio-field-wrapper').width();
-				if(width < 480 && width != 0){
-					resize();
-				}
-			}
-		);
-	</script>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-	</body>
-</html>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 
-<!-- This page was generated by ComingSoonPage.com | Learn more: http://www.comingsoonpage.com -->
+    <!-- Custom styles for this template -->
+    <link href="/assets/styles/cover.css" rel="stylesheet">
+
+  </head>
+
+  <body class="text-center">
+    <div class="background" style="background-image: url('https://images.unsplash.com/photo-1484856299450-fb14549bca50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2920&q=80')">
+
+    <!--    Change the image source '/images/default.jpg' with your favourite image.     -->
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column cover black" data-color="black">
+
+    <!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
+
+        <header class="masthead mb-auto"></header>
+        <div class="container align-middle">
+            <img class="main-logo img-fluid" src="/assets/images/noiseless-logo-white.svg" alt="noiseless-logo">
+    <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+
+            <div class="content">
+                <h2>Follow us for fresh updates</h2>
+                <div class="social">
+                  <a href="https://untappd.com/noiseless"><i class="fab fa-untappd"></i></a>
+                  <a href="https://www.instagram.com/noiseless.beer/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/noiseless.beer/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/noiselessbeer"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/showcase/noiseless/"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://vm.tiktok.com/ZSnVaCe9/"><i class="fab fa-tiktok"></i></a>
+                </div>
+
+                    <!-- <div class="row">
+                        <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
+                            <form class="form-inline" role="form">
+                              <div class="form-group">
+                                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                <input type="email" class="form-control transparent" placeholder="Your email here...">
+                              </div>
+                              <button type="submit" class="btn btn-fill">Notify Me</button>
+                            </form>
+
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+            <footer class="mastfoot mt-auto">
+              <div class="container">
+                     Made with <i class="fa fa-heart heart"></i> by The Beer Geeks. <span>Photo by <a href="https://unsplash.com/@kimonmaritz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kimon Maritz</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>.</span>
+              </div>
+            </footer>
+        </div>
+
+     </div>
+
+     <!-- Modal -->
+     <div class="modal fade" id="ageModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+       <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="ageModalLabel">Modal title</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             ...
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <button type="button" class="btn btn-primary">Understood</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+    <!--<div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+    </video>-->
+    <!--<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Noiseless</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Our Story</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3">
+        <img src="/assets/images/noiseless-logo-white.svg" alt="Noiseless Logo" height="400" />
+        <h1>We make beer... in silence...</h1>
+        <p class="lead">In the heart of Old Antibes, 3 beer geeks hand crafting hop loaded cans for your pure pleasure.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+        </p>
+      </main>
+
+      <footer class="mt-auto text-white-50">
+        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+      </footer>
+    </div>
+-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- <script>
+      var ageModal = new bootstrap.Modal(document.getElementById('ageModal'), {backdrop: 'static'});
+      ageModal.show();
+    </script> -->
+
+
+
+  </body>
